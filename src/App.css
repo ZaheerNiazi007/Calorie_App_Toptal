@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(337deg, #e8f0fe, #d8e4fa, #b5c2d8);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+}
+.login {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=732&q=80");
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 17%;
+  }
+  50% {
+    background-position: 100% 84%;
+  }
+  100% {
+    background-position: 0% 17%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 17%;
+  }
+  50% {
+    background-position: 100% 84%;
+  }
+  100% {
+    background-position: 0% 17%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 17%;
+  }
+  50% {
+    background-position: 100% 84%;
+  }
+  100% {
+    background-position: 0% 17%;
+  }
+}
